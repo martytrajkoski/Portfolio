@@ -4,21 +4,10 @@ export function About(){
             <h4>About -</h4>
             <h2>Hi, I'm Marty.</h2>
             <div className="text">
-                <p>Last year student at Faculty of Computer Science and Engineering in Skopje,
-                    seeking opportunities to apply and expand my skills in the fields of design,
-                    backend programming, and frontend development.
-                    I am a hardworking and creative individual with a strong passion for
-                    technology and a drive to continually increase my knowledge in the world of
-                    computer science. I thrive in challenging environments and am always eager
-                    to take on new tasks and projects
-                </p>
-                <ul>
-                    <li>Enthusiastic and dedicated computer science student with a focus on
-                        design, backend programming, and frontend development.</li>
-                    <li>Skilled in web development technologies.</li>
-                    <li>Strong problem-solving abilities and a logical approach to coding and development challenges.</li>
-                    <li>Excellent communication skills and a willingness to share knowledge with peers and collaborate on projects</li>
-                </ul>
+                <p>As a dedicated final-year Computer Science student at the Faculty of Computer Science and Engineering in Skopje, I am motivated by a passion for technology and solving complex challenges. I specialize in web development, with hands-on experience in both backend programming and frontend design. My goal is to blend creativity with technical expertise to build solutions that are not only functional but user-focused.</p>
+                <p>I thrive in environments that challenge me to think critically and innovate, and I’m always looking for opportunities to learn and grow. My strong foundation in coding, combined with a keen eye for design, allows me to approach projects from both technical and creative angles.</p>
+                <p>Collaboration is key to my work ethic. I enjoy working in teams, sharing ideas, and learning from my peers while contributing my own knowledge to solve complex problems. With excellent communication skills, I’m skilled at breaking down complicated concepts and working efficiently with others.</p>
+                <p>I’m excited to bring my skills and passion to projects that make an impact, and I look forward to contributing to teams where innovation and creativity are at the forefront.</p>
             </div>
         </div>
     )
