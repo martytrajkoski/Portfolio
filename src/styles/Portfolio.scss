@@ -38,7 +38,7 @@
 }
 
 .navbar {
-    margin: 0px auto;
+    margin: 10px auto;
     border-radius: 25px;
     border: 1px solid rgba(71, 71, 71, 0.377);
     background-color: rgba(55, 55, 55, 0.418);
@@ -71,7 +71,7 @@
 
     a {
         color: white;
-        border-radius: 25px;
+        border-radius: 15px;
         padding: 10px 20px;
         font-size: 1rem;
         transition: background-color 0.3s ease, padding 0.3s ease, transform 0.3s ease;

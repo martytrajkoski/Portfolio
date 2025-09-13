@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 export function Navbar() {
     
     return (
-        <NavbarBs sticky="top" className="shadow-sm mt-3">
+        <NavbarBs sticky="top" className="shadow-sm mt-6">
             <Container fluid>
                 <Nav className="navbar-nav">
                     <Nav.Link as={Link} to='home' smooth={true} duration={500}>Home</Nav.Link>

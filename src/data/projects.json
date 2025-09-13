@@ -1,60 +1,97 @@
 [
     {
-        "id": 1,
-        "title": "Lern Deutsch",
-        "skills": ["React", "SASS", ".NET Core", "Stripe", "Docker"],
-        "url": [
-            "https://github.com/markotasevski1/ikt-frontend-website",
-            "https://github.com/petarzafirovski/LernDeutsch-back-end",
-            "https://www.figma.com/design/Aj9GBt21pP7jDyM7YVTxaZ/LernDeutsch?node-id=0-1&t=xCnk72n43EnvXx4Q-1"
-        ],
-        "content": "Web application for a German language learning system with the help of courses for which a certificate is obtained according to the level of knowledge A team project with which we created a web application for learning German language. The application is built using ReactJS, ASP .Net core #C, Docker, Stripe and Azure. The app mockup was made on Adobe XD. We managed the collaboration between team members through Jira, making weekly sprints where we assigned tasks to each team member. My part of the project was based mostly on the front-end where I worked on the UI with React Bootstrap, creating components and composing pages, API calls to connect to the database using Axios. I also participated in a large part of the mockup creation for the app. The project was part of the faculty program and we presented it at the end of the semester where we got a grade of 10. More about the project: The project is composed of materials with different levels for learning the German language, for which there is a quiz at the end of each lecture, for which a certificate is obtained depending on the points won. Some of the quizzes are charged, so we use Stripe to process the charges."
-    },
-    {
-        "id": 2,
-        "title": "Aora",
-        "skills": ["ReactNative", "Expo", "TailwindCSS", "Appwrite"],
-        "url": ["https://github.com/martytrajkoski/reactNative-Aora"],
-        "content": "Aora is a React Native app developed using Expo, TailwindCSS for styling, and Appwrite for backend and database services. The app, compatible with both Android and iOS, allows users to upload and view videos, interact with content from other users, and manage their own video collections. This app features a clean and intuitive user interface with four main tabs: Home, Bookmarks, Upload, and Profile. In the Home tab, users can browse a feed of videos uploaded by others and play videos in fullscreen or picture-inpicture mode. The Bookmarks tab lets users save their favorite videos for easy access. The Upload tab enables users to upload their own videos by selecting files from their phone’s camera roll, and they are prompted to enter a title and select a thumbnail during the upload process. The Profile tab allows users to view and manage their profile information and their uploaded videos. The technology stack includes React Native with Expo for the frontend, TailwindCSS for styling, and Appwrite for backend services including authentication, database management, and file storage."
-    },
-    {
         "id": 3,
         "title": "Design Masterclass",
-        "skills": ["React", "SASS", "Django", "Python", "Stripe"],
-        "url": [
-            "https://github.com/martytrajkoski/designmasterclass-frontend",
-            "https://github.com/martytrajkoski/designmasterclass-backend",
-            "https://www.figma.com/design/XMkUlEHg320lYCERbfP4ch/DesignMasterclass?t=xCnk72n43EnvXx4Q-1"
+        "skills": [
+            "ReactJS",
+            "SASS",
+            "Django",
+            "Python",
+            "Stripe"
         ],
+        "url": {
+            "frontend": "https://github.com/martytrajkoski/designmasterclass-frontend",
+            "backend": "https://github.com/martytrajkoski/designmasterclass-backend",
+            "design": "https://www.figma.com/design/XMkUlEHg320lYCERbfP4ch/DesignMasterclass?t=xCnk72n43EnvXx4Q-1"
+        },
         "content": "Individual project for an educational web application for graphic designers using Adobe platforms (Illustrator and Photoshop). The application goal is to describe the capabilities of both platforms using quizzes, free and paid courses or simple explanations for all offered tools. This project was part of a college course that I worked on independently. To realize this project I used Figma for mockup design, Python's Django Framework, ReactJS on front-end, Axios HTTP client."
     },
     {
         "id": 4,
         "title": "Motion",
-        "skills": ["InertiaReact", "SASS", "Laravel-PHP"],
-        "url": ["https://github.com/martytrajkoski/Motion"],
+        "skills": [
+            "InertiaReact",
+            "SASS",
+            "Laravel-PHP"
+        ],
+        "url": {
+            "frontend": "https://github.com/martytrajkoski/Motion"
+        },
         "content": "Motion is a versatile Note and Reminder app designed to help users stay organized and on top of their tasks. After creating an account, users can easily add, edit, and delete notes on a dedicated notes page, ensuring that important information is always at their fingertips. The app also features a reminder page where users can add, edit, and delete reminders. Each reminder can be assigned a priority level, helping users prioritize tasks based on their importance. A key feature of Motion is the ability to share reminders with other users, making it easier to collaborate and keep track of shared tasks. With a focus on simplicity and functionality, Motion provides a streamlined experience for managing personal notes and reminders, all while ensuring users can efficiently organize their tasks."
     },
     {
         "id": 5,
         "title": "Orange Melons",
-        "skills": ["React", "Java Script", "SASS", "Laravel-PHP", "MySQL"],
-        "url": [
-            "https://github.com/bah-melon/om-practice",
-            "https://github.com/bah-melon/om-backend",
-            "https://www.figma.com/design/g8M1ptbrUZ1S0xQO8ErFo0/Orange-Melons?t=xCnk72n43EnvXx4Q-1"
+        "skills": [
+            "ReactJS",
+            "SASS",
+            "Laravel-PHP",
+            "MySQL"
         ],
+        "url": {
+            "frontend": "https://github.com/bah-melon/om-practice",
+            "backend": "https://github.com/bah-melon/om-backend",
+            "design": "https://www.figma.com/design/g8M1ptbrUZ1S0xQO8ErFo0/Orange-Melons?t=xCnk72n43EnvXx4Q-1"
+        },
         "content": "OrangeMelons is a website designed for an IT company, offering a seamless job application process for applicants and robust management tools for administrators. Applicants can browse available positions and apply by filling in the required information and uploading their CVs directly through the website. The platform also includes a dedicated admin section, where administrators can manage job listings and applications. Admins have the ability to add new job openings, edit or delete existing ones, and review all submitted applications. They can also filter applications by specific job roles, read and download applicants' CVs, or remove them as needed. This project was created as part of my own practice to improve my skills in developing a comprehensive platform. It balances user experience with administrative functionality, streamlining the job application process for both applicants and company administrators."
     },
     {
         "id": 6,
         "title": "Chat App",
-        "skills": ["React", "TypeScript", "SASS", "Laravel-PHP", "MySQL"],
-        "url": [
-            "https://github.com/martytrajkoski/ChatApp-frontend",
-            "https://github.com/martytrajkoski/ChatApp-backend",
-            "https://www.figma.com/design/TK148LphO7dSN7TUbzNmNY/Chat-Application?node-id=0-1&t=xCnk72n43EnvXx4Q-1"
+        "skills": [
+            "React TypeScript",
+            "SASS",
+            "Laravel-PHP",
+            "MySQL"
         ],
+        "url": {
+            "frontend": "https://github.com/martytrajkoski/ChatApp-frontend",
+            "backend": "https://github.com/martytrajkoski/ChatApp-backend",
+            "design": "https://www.figma.com/design/TK148LphO7dSN7TUbzNmNY/Chat-Application?node-id=0-1&t=xCnk72n43EnvXx4Q-1"
+        },
         "content": "The Chat Application is a dynamic platform that allows users to create accounts and communicate effortlessly. Users can send and delete text messages, with notifications for when messages are read, fostering transparency in conversations. The messaging keyboard includes a variety of emojis, adding a creative touch to interactions. A convenient search function enables users to quickly find and initiate chats, making it easy to connect with friends and colleagues. Leveraging broadcasting capabilities, the app ensures real-time communication for instant message transfers. Built with React and TypeScript for a responsive frontend, and Laravel PHP for the backend, this project showcases my skills in full-stack development and my ability to create engaging, user-friendly applications that enhance communication experiences."
+    },
+    {
+        "id": 7,
+        "title": "inSys",
+        "skills": [
+            "React TypeScript",
+            "SASS",
+            "Laravel-PHP",
+            "MySQL"
+        ],
+        "url": {
+            "frontend": "https://github.com/martytrajkoski/inSys--frontend",
+            "backend": "https://github.com/bojananananan/inSys--backend/tree/project"
+        },
+        "content": "This project is a digital system for managing university invoices. It allows users to upload real-life invoice PDFs and process them through three defined roles within the university workflow. Once completed, the Prodean reviews the invoice, with options to accept, reject, or send back with feedback. Approved invoices are sealed and securely archived. The system also includes a searchable archive where all invoices are stored and can be filtered by specific parameters, ensuring efficient tracking and management."
+    },
+    {
+        "id": 8,
+        "title": "Ohrid Apartments",
+        "skills": [
+            "React TypeScript",
+            "SASS",
+            "Laravel-PHP",
+            "MySQL",
+            "AWS + Netlify",
+            "Go Daddy"
+        ],
+        "url": {
+            "frontend": "https://github.com/martytrajkoski/OhridApartments",
+            "backend": "https://github.com/martytrajkoski/ohrid-apartments-backend",
+            "deployed": "https://theohridapartments.com/"
+        },
+        "content": "A web application showcasing different villas in Ohrid, where users can explore available apartments, check detailed information, view locations, and make reservations directly through the platform. The system provides an intuitive interface for browsing listings, ensuring a seamless booking experience for visitors."
     }
 ]

@@ -7,9 +7,15 @@ type Project = {
   id: number,
   title: string,
   skills: string[],
-  url: string[],
+  url: {
+    frontend?: string,
+    backend?: string,
+    design?: string,
+    deployed?: string
+  },
   content?: string
 }
+
 
 export function Projects() {
 

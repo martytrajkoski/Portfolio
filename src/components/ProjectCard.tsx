@@ -4,7 +4,12 @@ type Project = {
     id: number,
     title: string,
     skills: string[],
-    url: string[],
+    url: {
+        frontend?: string,
+        backend?: string,
+        design?: string,
+        deployed?: string
+    },
     content?: string
 }
 
@@ -13,21 +18,21 @@ type ProjectCardProps = {
     closePopup: () => void;
 }
 
-export function ProjectCard({project, closePopup}: ProjectCardProps) {
+export function ProjectCard({ project, closePopup }: ProjectCardProps) {
 
     const popupRef = useRef<HTMLDivElement>(null);
     useEffect(() => {
-      const handleClickOutside = (event: MouseEvent) => {
-        if (popupRef.current && !popupRef.current.contains(event.target as Node)) {
-          closePopup();
-        }
-      };
-  
-      document.addEventListener("mousedown", handleClickOutside);
-  
-      return () => {
-        document.removeEventListener("mousedown", handleClickOutside);
-      };
+        const handleClickOutside = (event: MouseEvent) => {
+            if (popupRef.current && !popupRef.current.contains(event.target as Node)) {
+                closePopup();
+            }
+        };
+
+        document.addEventListener("mousedown", handleClickOutside);
+
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
     }, [closePopup]);
 
     return (
@@ -42,49 +47,29 @@ export function ProjectCard({project, closePopup}: ProjectCardProps) {
                 </div>
                 <p>{project.content}</p>
                 <div className="popup-buttons">
-                    {project.url.map((url, index) => {
-                        let label;
-                        if (project.url.length === 1) {
-                            label = "Github";
-                            return (
-                                <a href={url} target="_blank" rel="noopener noreferrer" key={index}>
-                                    <button>{label}</button>
-                                </a>
-                            );
+                    {project.url.frontend && (
+                        <a href={project.url.frontend} target="_blank" rel="noopener noreferrer">
+                            <button>Frontend</button>
+                        </a>
+                    )}
 
-                        } else {
-                            if (index === 0){
-                                label = "Frontend";
-                                return (
-                                    <a href={url} target="_blank" rel="noopener noreferrer" key={index}>
-                                        <button>{label}</button>
-                                    </a>
-                                );
-                            } 
-                            if (index === 1){
-                                label = "Backend";
-                                return (
-                                    <a href={url} target="_blank" rel="noopener noreferrer" key={index}>
-                                        <button>{label}</button>
-                                    </a>
-                                );
-                            } 
-                            if (index === 2) {
-                                label = "Design";
-                                return (
-                                    <a href={url} target="_blank" rel="noopener noreferrer" key={index}>
-                                        <button>{label}</button>
-                                    </a>
-                                );
-                            }
-                        }
+                    {project.url.backend && (
+                        <a href={project.url.backend} target="_blank" rel="noopener noreferrer">
+                            <button>Backend</button>
+                        </a>
+                    )}
 
-                        return (
-                            <a href={Object.values(url)[0]} target="_blank" rel="noopener noreferrer" key={index}>
-                                <button>{label}</button>
-                            </a>
-                        );
-                    })}
+                    {project.url.design && (
+                        <a href={project.url.design} target="_blank" rel="noopener noreferrer">
+                            <button>Design</button>
+                        </a>
+                    )}
+
+                    {project.url.deployed && (
+                        <a href={project.url.deployed} target="_blank" rel="noopener noreferrer">
+                            <button>Website</button>
+                        </a>
+                    )}
                 </div>
             </div>
         </div>

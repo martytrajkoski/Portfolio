@@ -7,6 +7,7 @@ import { Contact } from "./components/Contact"
 import { Rights } from "./components/Rights"
 import { Experience } from "./components/Experience"
 import '../src/styles/Portfolio.scss'
+import { Certificates } from "./components/Certificates"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Home/>
       <About/>
       <Experience/>
+      <Certificates/>
       <Projects/>
       <Socials/>
       <Contact/>

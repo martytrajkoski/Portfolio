@@ -11,6 +11,15 @@ export function Experience(){
                     June 2024 - September 2024    
                 </small>
             </div>
+            <div className="text">
+                <h5>HoppSolutions</h5>    
+                <p>
+                    Cloud Engineer / Fullstack Developer
+                </p>
+                <small>
+                    June 2025 - Present
+                </small>
+            </div>
         </div>
     )
 }
